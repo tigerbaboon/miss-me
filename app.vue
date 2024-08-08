@@ -41,7 +41,7 @@ const text = computed(() => {
       case 2:
         return "I'm sad 😩";
       default:
-        return "I'm " + "vary ".repeat(no.value - 2) + " sad 😭";
+        return "I'm " + "very ".repeat(no.value - 2) + " sad 😭";
     }
   }
 });
