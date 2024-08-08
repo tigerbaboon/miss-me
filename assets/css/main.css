@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    html {
+        @apply bg-slate-100
+    }
+}
+
+.btn {
+    @apply  font-bold py-2 px-4 rounded-lg w-full;
+}
+
+.btn-success {
+    @apply bg-green-500 text-white;
+}
+.btn-danger {
+    @apply bg-red-500 text-white;
+}
