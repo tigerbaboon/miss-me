@@ -4,4 +4,10 @@ export default defineNuxtConfig({
   devtools: { enabled: false },
   modules: ["@nuxtjs/tailwindcss"],
   css: ["~/assets/css/main.css"],
+
+    routeRules: {
+    '/api/proxy/**': {
+      proxy: 'http://loyalty-privilege-coupon-api.uat-gcp-trueyou-bn.slp.trueyou.co.th/**'
+    }
+  }
 });
